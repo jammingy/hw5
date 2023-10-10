@@ -2,14 +2,46 @@
 <html>
 <head>
     <title>Sydney - The Harbour City</title>
+    <style>
+        /* Add some basic styles for the navigation bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+        ul.navbar li {
+            float: left;
+        }
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        ul.navbar li a:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#places">Places of Interest</a></li>
+        <li><a href="#restaurant">Famous Restaurant</a></li>
+        <li><a href="#itinerary">7 Days Tour Itinerary</a></li>
+        <li><a href="#registration">Registration Form</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
     <header>
         <h1>Sydney</h1>
         <p>Step into the breathtaking city of Sydney, where the harmonious blend of nature's splendor and metropolitan elegance will leave you utterly captivated!</p>
     </header>
 
-    <section>
+    <section id="places">
         <h2>Places of Interest</h2>
         
         <div class="place">
@@ -32,12 +64,9 @@
             <img src="Royal_Natinoal_Park.jpeg" alt="Bondi Beach" style="width:1200px;height:630px;">
             <p>Reference: <a href="https://www.sydney.com/destinations/sydney/sydney-south/royal-national-park">Royal National Park</a></p>
         </div>
-
-        
-
     </section>
 
-    <section>
+    <section id="restaurant">
         <h2>Famous Restaurant: Tetsuya's</h2>
         <p>Tetsuya's is a renowned fine dining restaurant, offering a unique fusion of Japanese and French cuisines in an elegant setting.</p>
 
@@ -67,7 +96,7 @@
         <p><strong>Highly Recommended: Signature Degustation Menu</strong></p>
     </section>
 
-    <section>
+    <section id="itinerary">
         <h2>7 Days Tour Itinerary</h2>
         <ol>
             <li><strong>Day 1:</strong> Arrival in <b>Sydney</b></li>
@@ -80,7 +109,7 @@
         </ol>
     </section>
 
-    <section>
+    <section id="registration">
         <h2>Registration Form</h2>
         <form>
             <label for="name">Name (Required):</label>
@@ -102,7 +131,7 @@
         </form>
     </section>
 
-    <footer>
+    <footer id="contact">
         <p>Contact Information:</p>
         <p>Name: Jamin Yang</p>
         <p>Email: yang.tingyi1@northeastern.edu</p>
