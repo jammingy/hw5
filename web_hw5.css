@@ -1,0 +1,24 @@
+/* CSS for the HTML document */
+
+/* 1. Styling the <header> element */
+header {
+    background-color: #0077b6; /* Background color */
+    color: #f4a261; /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* 2. Styling the .place class for the sections with places of interest */
+.place {
+    border: 2px solid #e76f51; /* Border color */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* 3. Styling the #special_requests textarea in the registration form */
+#special_requests {
+    background-color: #f4a261; /* Background color */
+    color: #ffffff; /* Text color */
+    border: 1px solid #e76f51; /* Border color */
+    padding: 5px;
+}
