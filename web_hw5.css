@@ -1,6 +1,6 @@
 /* CSS for the HTML document */
 
-/* 1. Styling the <header> element */
+/* Styling the <header> element */
 header {
     background-color: #0077b6;
     color: rgb(244, 162, 97);
@@ -8,14 +8,25 @@ header {
     padding: 20px;
 }
 
-/* 2. Styling the .place class for the sections with places of interest */
+/* Styling the .place class for the sections with places of interest */
 .place {
     border: 2px solid rgba(231, 111, 81, 0.9);
     margin-bottom: 20px; /* Add margin at the bottom to separate .place sections */
     padding: 10px;
 }
 
-/* 3. Styling the #special_requests textarea in the registration form */
+/* Styling the <a> link (Inline element) */
+a {
+    color: #f4a261;
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Apply a hover effect to the <a> link when the cursor is over it */
+a:hover {
+    color: #e76f51;
+}
+
+/* Styling the #special_requests textarea in the registration form */
 #special_requests {
     background-color: #f4a261;
     color: rgb(255, 255, 255);
@@ -29,3 +40,14 @@ header {
 input[type="submit"] {
     margin-top: 10px;
 }
+
+
+/* Styling the .place class for the sections with places of interest (Block-level element) */
+.place {
+    border: 2px solid rgba(231, 111, 81, 0.9);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+
