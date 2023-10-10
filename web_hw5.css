@@ -2,23 +2,30 @@
 
 /* 1. Styling the <header> element */
 header {
-    background-color: #0077b6; /* Hexadecimal color format */
-    color: rgb(244, 162, 97); /* RGB color format */
+    background-color: #0077b6;
+    color: rgb(244, 162, 97);
     text-align: center;
     padding: 20px;
 }
 
 /* 2. Styling the .place class for the sections with places of interest */
 .place {
-    border: 2px solid rgba(231, 111, 81, 0.9); /* RGBA color format with alpha (opacity) */
-    margin-bottom: 20px;
+    border: 2px solid rgba(231, 111, 81, 0.9);
+    margin-bottom: 20px; /* Add margin at the bottom to separate .place sections */
     padding: 10px;
 }
 
 /* 3. Styling the #special_requests textarea in the registration form */
 #special_requests {
-    background-color: #f4a261; /* Hexadecimal color format */
-    color: rgb(255, 255, 255); /* RGB color format */
-    border: 1px solid hsl(17, 76%, 58%); /* HSL color format */
-    padding: 5px;
+    background-color: #f4a261;
+    color: rgb(255, 255, 255);
+    border: 1px solid hsl(17, 76%, 58%);
+    padding: 10px; /* Add padding to the textarea for spacing */
+    margin-top: 10px; /* Add margin at the top to separate it from the previous input */
+    margin-bottom: 10px; /* Add margin at the bottom to separate it from the next input */
+}
+
+/* 4. Add margin to the submit button to separate it from the textarea */
+input[type="submit"] {
+    margin-top: 10px;
 }
