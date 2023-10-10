@@ -2,23 +2,23 @@
 
 /* 1. Styling the <header> element */
 header {
-    background-color: #0077b6; /* Background color */
-    color: #f4a261; /* Text color */
+    background-color: #0077b6; /* Hexadecimal color format */
+    color: rgb(244, 162, 97); /* RGB color format */
     text-align: center;
     padding: 20px;
 }
 
 /* 2. Styling the .place class for the sections with places of interest */
 .place {
-    border: 2px solid #e76f51; /* Border color */
+    border: 2px solid rgba(231, 111, 81, 0.9); /* RGBA color format with alpha (opacity) */
     margin-bottom: 20px;
     padding: 10px;
 }
 
 /* 3. Styling the #special_requests textarea in the registration form */
 #special_requests {
-    background-color: #f4a261; /* Background color */
-    color: #ffffff; /* Text color */
-    border: 1px solid #e76f51; /* Border color */
+    background-color: #f4a261; /* Hexadecimal color format */
+    color: rgb(255, 255, 255); /* RGB color format */
+    border: 1px solid hsl(17, 76%, 58%); /* HSL color format */
     padding: 5px;
 }
