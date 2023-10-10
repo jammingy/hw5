@@ -1,0 +1,53 @@
+/* CSS for the HTML document */
+
+/* Styling the <header> element */
+header {
+    background-color: #0077b6;
+    color: rgb(244, 162, 97);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the .place class for the sections with places of interest */
+.place {
+    border: 2px solid rgba(231, 111, 81, 0.9);
+    margin-bottom: 20px; /* Add margin at the bottom to separate .place sections */
+    padding: 10px;
+}
+
+/* Styling the <a> link (Inline element) */
+a {
+    color: #f4a261;
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Apply a hover effect to the <a> link when the cursor is over it */
+a:hover {
+    color: #e76f51;
+}
+
+/* Styling the #special_requests textarea in the registration form */
+#special_requests {
+    background-color: #f4a261;
+    color: rgb(255, 255, 255);
+    border: 1px solid hsl(17, 76%, 58%);
+    padding: 10px; /* Add padding to the textarea for spacing */
+    margin-top: 10px; /* Add margin at the top to separate it from the previous input */
+    margin-bottom: 10px; /* Add margin at the bottom to separate it from the next input */
+}
+
+/* Add margin to the submit button to separate it from the textarea */
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+
+/* Styling the .place class for the sections with places of interest (Block-level element) */
+.place {
+    border: 2px solid rgba(231, 111, 81, 0.9);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+
